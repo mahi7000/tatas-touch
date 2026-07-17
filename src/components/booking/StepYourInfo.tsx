@@ -88,7 +88,7 @@ export default function StepYourInfo({ customerInfo, onUpdate }: StepYourInfoPro
           </label>
           <input
             type="tel"
-            placeholder="(555) 123-4567"
+            placeholder="+251 91 234 5678"
             value={customerInfo.phone}
             onChange={(e) => handleChange('phone', e.target.value)}
             className={`${inputBase} ${errors.phone ? inputError : ''}`}

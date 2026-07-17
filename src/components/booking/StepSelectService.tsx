@@ -55,7 +55,7 @@ export default function StepSelectService({
                 {service.duration} min
               </p>
               <p className={`font-bold text-lg ${isSelected ? 'text-white-pure' : 'text-berry'}`}>
-                ${service.price}
+                ETB{service.price}
               </p>
             </Card>
           );

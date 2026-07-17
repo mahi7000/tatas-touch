@@ -6,7 +6,7 @@ export const services: Service[] = [
     category: 'manicure',
     name: 'Classic Manicure',
     duration: 30,
-    price: 25,
+    price: 500,
     description: 'Nail shaping, cuticle care, hand massage, and polish of your choice.',
     popular: true,
   },
@@ -15,7 +15,7 @@ export const services: Service[] = [
     category: 'manicure',
     name: 'Spa Manicure',
     duration: 45,
-    price: 40,
+    price: 800,
     description: 'Luxurious soak, exfoliating scrub, mask, hot towel wrap, and extended massage.',
   },
   {
@@ -23,7 +23,7 @@ export const services: Service[] = [
     category: 'gel-acrylic',
     name: 'Gel Manicure',
     duration: 45,
-    price: 40,
+    price: 800,
     description: 'Long-lasting gel polish with high-shine finish. No chips for up to 3 weeks.',
     popular: true,
   },
@@ -32,7 +32,7 @@ export const services: Service[] = [
     category: 'gel-acrylic',
     name: 'Acrylic Full Set',
     duration: 90,
-    price: 65,
+    price: 1250,
     description: 'Sculpted acrylic extensions with your choice of shape, length, and color.',
   },
   {
@@ -40,7 +40,7 @@ export const services: Service[] = [
     category: 'gel-acrylic',
     name: 'Acrylic Fill',
     duration: 60,
-    price: 40,
+    price: 800,
     description: 'Maintain your acrylic set with a fill and fresh polish.',
   },
   {
@@ -48,7 +48,7 @@ export const services: Service[] = [
     category: 'pedicure',
     name: 'Classic Pedicure',
     duration: 45,
-    price: 35,
+    price: 700,
     description: 'Soothing foot soak, nail care, callus smoothing, and polish.',
     popular: true,
   },
@@ -57,7 +57,7 @@ export const services: Service[] = [
     category: 'pedicure',
     name: 'Spa Pedicure',
     duration: 60,
-    price: 50,
+    price: 1000,
     description: 'Ultimate relaxation with extended massage, mask, and hot stone treatment.',
   },
   {
@@ -65,7 +65,7 @@ export const services: Service[] = [
     category: 'pedicure',
     name: 'Gel Pedicure',
     duration: 60,
-    price: 50,
+    price: 1000,
     description: 'Long-lasting gel polish on toes. Perfect for vacations and sandal season.',
   },
   {
@@ -73,7 +73,7 @@ export const services: Service[] = [
     category: 'nail-art',
     name: 'Nail Art - Simple',
     duration: 15,
-    price: 5,
+    price: 100,
     description: 'Per nail. Simple designs, dots, stripes, or single accent nail.',
   },
   {
@@ -81,7 +81,7 @@ export const services: Service[] = [
     category: 'nail-art',
     name: 'Nail Art - Detailed',
     duration: 25,
-    price: 10,
+    price: 200,
     description: 'Per nail. Intricate designs, florals, gems, or hand-painted art.',
   },
   {
@@ -89,7 +89,7 @@ export const services: Service[] = [
     category: 'add-ons',
     name: 'Gel Removal',
     duration: 15,
-    price: 15,
+    price: 300,
     description: 'Safe soak-off removal for gel polish.',
   },
   {
@@ -97,7 +97,7 @@ export const services: Service[] = [
     category: 'add-ons',
     name: 'Nail Repair',
     duration: 10,
-    price: 5,
+    price: 100,
     description: 'Per nail. Fix cracks or breaks with silk wrap.',
   },
   {
@@ -105,7 +105,7 @@ export const services: Service[] = [
     category: 'add-ons',
     name: 'Paraffin Treatment',
     duration: 15,
-    price: 15,
+    price: 300,
     description: 'Deeply moisturizing warm wax treatment for hands or feet.',
   },
 ];

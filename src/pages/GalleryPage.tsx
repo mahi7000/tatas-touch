@@ -72,10 +72,12 @@ export default function GalleryPage() {
                 onClick={() => openLightbox(index)}
                 className="rounded-[20px] border-[1.5px] border-pink-primary bg-pink-primary/5 overflow-hidden cursor-pointer group relative aspect-square"
               >
-                {/* Placeholder content */}
-                <div className="w-full h-full flex items-center justify-center bg-pink-primary/5 group-hover:bg-pink-primary/10 transition-colors duration-200">
-                  <Images size={48} weight="duotone" className="text-pink-primary/40" />
-                </div>
+                {/* Actual image */}
+                <img
+                  src={image.src}
+                  alt={image.caption}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
 
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-pink-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex items-center justify-center p-4">
@@ -135,9 +137,13 @@ export default function GalleryPage() {
               <X size={20} weight="bold" />
             </button>
 
-            {/* Image placeholder */}
-            <div className="aspect-square rounded-[24px] border-[1.5px] border-pink-primary bg-pink-primary/5 flex items-center justify-center mb-4">
-              <Images size={80} weight="duotone" className="text-pink-primary/30" />
+            {/* Image */}
+            <div className="aspect-square rounded-[24px] border-[1.5px] border-pink-primary bg-pink-primary/5 overflow-hidden mb-4">
+              <img
+                src={filteredImages[lightboxIndex].src}
+                alt={filteredImages[lightboxIndex].caption}
+                className="w-full h-full object-cover"
+              />
             </div>
 
             {/* Caption */}

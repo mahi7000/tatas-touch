@@ -132,7 +132,7 @@ export default function HomePage() {
                   <span className="text-berry/50 text-sm flex items-center gap-1">
                     <Clock size={16} weight="bold" /> {service.duration} min
                   </span>
-                  <span className="font-bold text-berry text-lg">${service.price}</span>
+                  <span className="font-bold text-berry text-lg">ETB{service.price}</span>
                 </div>
               </Card>
             ))}

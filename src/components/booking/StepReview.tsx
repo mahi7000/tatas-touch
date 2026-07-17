@@ -37,7 +37,7 @@ export default function StepReview({
               <p className="font-semibold text-berry">{service.name}</p>
               <p className="text-berry/50 text-sm">{service.duration} min</p>
             </div>
-            <span className="ml-auto font-bold text-berry text-lg">${service.price}</span>
+            <span className="ml-auto font-bold text-berry text-lg">ETB{service.price}</span>
           </div>
         </Card>
 

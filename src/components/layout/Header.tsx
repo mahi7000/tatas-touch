@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { List, X } from '@phosphor-icons/react';
 import Button from '../ui/Button';
+import logo from '../../assets/logo.png';
 
 const navLinks = [
   { path: '/', label: 'Home' },
@@ -24,8 +25,9 @@ export default function Header() {
           {/* Logo */}
           <Link
             to="/"
-            className="font-heading text-xl sm:text-2xl text-berry hover:text-pink-primary transition-colors duration-200"
+            className="font-heading text-xl sm:text-2xl text-berry hover:text-pink-primary transition-colors duration-200 flex items-center gap-4"
           >
+            <img src={logo} alt="tata's touch logo" className='w-16' />
             TATA'S TOUCH
           </Link>
 

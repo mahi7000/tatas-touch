@@ -3,9 +3,9 @@ import type { TeamMember } from '../types';
 export const team: TeamMember[] = [
   {
     id: '1',
-    name: 'Tata',
+    name: 'Mahder',
     role: 'Founder & Nail Artist',
-    bio: 'With over 10 years of experience, Tata brings passion and creativity to every single set. She believes nails are a form of self-expression.',
+    bio: 'With over 10 years of experience, Mahder brings passion and creativity to every single set. She believes nails are a form of self-expression.',
     avatarPlaceholder: '💅',
   },
   {

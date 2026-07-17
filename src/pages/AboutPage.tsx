@@ -27,7 +27,7 @@ export default function AboutPage() {
             <h2 className="font-heading text-3xl text-berry mb-6">Our Story</h2>
             <p className="text-berry/80 leading-relaxed mb-4">
               TATA'S TOUCH was born from a simple belief: every set of nails is a tiny canvas for
-              self-expression. What started as a passion project in Tata's cozy apartment has grown
+              self-expression. What started as a passion project in Mahder's cozy apartment has grown
               into a beloved neighborhood salon in the heart of the Beauty District.
             </p>
             <p className="text-berry/80 leading-relaxed mb-6">

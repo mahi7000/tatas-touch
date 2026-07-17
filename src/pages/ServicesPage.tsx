@@ -77,7 +77,7 @@ export default function ServicesPage() {
                       <Clock size={16} weight="bold" />
                       {service.duration} min
                     </span>
-                    <span className="font-bold text-berry text-xl">${service.price}</span>
+                    <span className="font-bold text-berry text-xl">ETB{service.price}</span>
                   </div>
                   <Link to="/book" className="mt-4">
                     <Button variant="outline" size="sm" className="w-full">
